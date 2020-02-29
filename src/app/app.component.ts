@@ -24,6 +24,12 @@ export class AppComponent {
       name: 'Development Server',
       status: 'offline',
       started: new Date(15, 1, 2017)
+    },
+    {
+      instanseType: 'small',
+      name: 'Testing Inviroment Server',
+      status: 'critical',
+      started: new Date(15, 1, 2017)
     }
   ];
 
