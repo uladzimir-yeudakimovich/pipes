@@ -42,4 +42,13 @@ export class AppComponent {
     };
   }
 
+  onAddServer() {
+    this.servers.push({
+      instanseType: 'small',
+      name: 'New Serwer',
+      status: 'stable',
+      started: new Date(15, 1, 2017)
+    });
+  }
+
 }
